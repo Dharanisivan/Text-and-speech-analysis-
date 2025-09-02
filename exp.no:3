@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 #exp no:3
 import nltk
 from nltk.corpus import gutenberg
@@ -13,3 +7,28 @@ file_ids = gutenberg.fileids()
 print("First 5 file IDs in Gutenberg corpus:", file_ids[:5])
 print("\nFirst 500 characters of raw text from the first book ({}):".format(file_ids[0]), gutenberg.raw(file_ids[0])[:500])
 
+output:
+First 5 file IDs in Gutenberg corpus: ['austen-emma.txt', 'austen-persuasion.txt', 'austen-sense.txt', 'bible-kjv.txt', 'blake-poems.txt']
+
+First 500 characters of raw text from the first book (austen-emma.txt): [Emma by Jane Austen 1816]
+
+VOLUME I
+
+CHAPTER I
+
+
+Emma Woodhouse, handsome, clever, and rich, with a comfortable home
+and happy disposition, seemed to unite some of the best blessings
+of existence; and had lived nearly twenty-one years in the world
+with very little to distress or vex her.
+
+She was the youngest of the two daughters of a most affectionate,
+indulgent father; and had, in consequence of her sister's marriage,
+been mistress of his house from a very early period.  Her mother
+had died t
+[nltk_data] Downloading package gutenberg to
+[nltk_data]     C:\Users\srmmc\AppData\Roaming\nltk_data...
+[nltk_data]   Package gutenberg is already up-to-date!
+[nltk_data] Downloading package punkt to
+[nltk_data]     C:\Users\srmmc\AppData\Roaming\nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
